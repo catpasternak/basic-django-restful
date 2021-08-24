@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web:
+    container_name: cars_rest_container
+    build: .
+    restart: always
+    ports:
+      - "8000:8000"
